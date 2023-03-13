@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My CV</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header-nav">
+			<nav id="nav" class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+					<li class="nav-item-menu"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item-menu"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item-menu"><a href="#english" class="nav-link">English</a></li>
+				</ul>
+			</nav>
+			<button id="nav-btn" class="nav-btn">
+				<span></span>
+			</button>
+		</div>
+	</header>
+	<main class="main">
+		<section class="preview">
+			<img src="img/CV.jpg" alt="my_photo">
+			<div class="my-name">
+				<h1><span>Andrey</span>Dovgulev</h1>
+				<h2>FRONTEND DEVELOPER</h2>
+			</div>
+		</section>
+		<section class="information">
+			<div id='contacts' class="container">
+				<h2>CONTACTS</h2>
+				<ul class="inf-list">
+					<li>Minsk, Belarus</li>
+					<li>Email: adovgulev111@gmail.com</li>
+					<li>Github: Drius123</li>
+					<li>Discord: Democyn(drius123)#1851</li>
+				</ul>
+			</div>
+			<div id='summary' class="container">
+				<h2>Summary</h2>
+				<p>A student aspiring to be a developer with web development skills, with some experience working on personal projects.</p>
+			</div>
+			<div id='skills' class="container">
+				<h2>SKILLS</h2>
+				<ul class="inf-list">
+					<li>Web-development: HTML5, CSS, JavaScript, Python</li>
+					<li>Version control: GIT, Github</li>
+					<li>Graphics: Figma</li>
+				</ul>
+			</div>
+			<div id='code' class="container">
+				<h2>CODE</h2>
+				<pre>function moveZeros(arr) {
+ for (let symb of arr){
+  if (symb === 0){
+   arr.splice(arr.indexOf(0), 1);
+   arr.push(0);
+  }
+ }
+return arr;
+}</pre>
+			</div>
+			<div id='courses' class="container">
+				<h2>COURSES</h2>
+				<ul class="inf-list">
+					<li>RS SCHOOL: FRONT-END STAGE 0, STAGE 1;</li>
+					<li>SKILLBOX: PYTHON</li>
+				</ul>
+			</div>
+			<div id='projects' class="container">
+				<h2>PROJECTS</h2>
+				<ul class="inf-list">
+					<a href="https://github.com/Drius123/Adventure-portal.git">Adventure portal</a>
+					<a href="https://github.com/Drius123/Adventure-portal.git">Plants</a>
+					<a href="https://github.com/Drius123/Adventure-portal.git">Pets</a>
+					<a href="https://github.com/Drius123/Adventure-portal.git">cssBayan</a>
+				</ul>
+			</div>
+			<div id='education' class="container">
+				<h2>EDUCATION</h2>
+				<p>Belarusian State University, Chemisty Faculty, Chemistry of High Energy, 2021</p>
+			</div>
+			<div id='english' class="container">
+				<h2>ENGLISH</h2>
+				<p>A2+ Pre-intermediate</p>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<a href="https://github.com/Drius123" class="link">Drius123</a>
+		<a href="https://rs.school/js/" class="logo"><img src="img/rs_school_js.svg" alt="logo"></a>
+	</footer>
+	<script src="./js/app.js"></script>
+</body>
+</html>
